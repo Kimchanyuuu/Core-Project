@@ -1,0 +1,36 @@
+.subMain {
+    margin-top: 100px;
+    max-width: 1150px;
+    width: 100%;
+    background-color: #fff;
+    /* height: 100%; */
+    position: relative;
+    left: calc(38% - 30px);
+    min-height: calc(100vh - 80px);
+}
+
+.mainHeader {
+    right: calc(3% - 35px);
+    top: 100px;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    width: 100%; /* 부모 .subMain 기준으로 100% */
+    background-color: black;
+}
+
+.subHeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    background: white
+}
+
+.headerMenu {
+    width: 40px;
+    height: 40px;
+    display: flex
+
+}
